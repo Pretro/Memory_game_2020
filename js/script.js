@@ -89,5 +89,4 @@ function updateScoreBoard(){
         document.getElementById('result').innerHTML = ' You are amazing.You won!';
     }
 }
-
 setInterval(updateScoreBoard,100);
