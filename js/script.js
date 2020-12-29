@@ -20,7 +20,7 @@ function createGame(){
         cards.push({index:i,variant:selectedVariant,open:false,found:false})
     }
     gameBoard.innerHTML=cards
-        .map(card=>'<div class="card card_back" id="c'+card.index+'" onclick="play('+card.index+')"></div>')
+        .map(card=>'<div class="col-sm-3 card card_back" id="c'+card.index+'" onclick="play('+card.index+')"></div>')
         .join('');    
 }
 
