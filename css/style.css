@@ -10,10 +10,10 @@ background-color: darkorange;
 }
 /*Playing board*/
 #game_board{
-    background-color: darkblue;
+    /*background-color: darkblue;*/
     margin-top: 50px;
     position: relative;
-    left:10%;
+    left:5%;
 }
 
 h1 {
@@ -123,9 +123,12 @@ h1 {
     align-items: center;
 }
 
-@media (max-width: 375px) { 
+
+
+@media (max-width: 768px) { 
+ 
     .card{
-   width: 60px;
-   height: 60px;
+   width: 50px;
+   height: 50px;
     }
 }
