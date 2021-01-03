@@ -54,4 +54,89 @@ As a user of this game, i want to
 
 * ## Wireframes ##
 
-    [Wireframe 1](Wireframes/Memory_game.png)
+    + [Wireframe 1](wireframes/Memory_game.png)
+    + [Wireframe 2](wireframes/Memory_mobile.png)
+
+* ## Features ##
+    + Responsive on all devices
+    + Interactive elements
+
+* # Technologies Used #
+     Languages Used
+    * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    * [CSS3](https://en.wikipedia.org/wiki/CSS)
+    * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+  Frameworks, Libraries & Programs Used ##
+  For the making of this project, the following technologies has been used.
+
++ [Gitpod](https://www.gitpod.io/) 
+
+    Gitpod is used as the enviroment program were the page was made.
+
++ [Github](https://github.com/) 
+
+    Github is used as the development platform, you can upload your code and make repositories. This platform, gives other users
+    the opportunity to see your repositories if made as open source code.
+
++ [HTML5](https://www.w3schools.com/)
+    
+    HTML is the language use to make websites. Since it is the standard markup languages for webpages.
+
++ [CSS](https://www.w3schools.com/css/default.asp)
+
+    CSS is the language used to style the pages made in HTML. 
+
++ [W3C Valitor HTML](https://validator.w3.org/)
+
+    W3C validator is the tool we use to check the markup validity in HTML.
+
++ [WC Valitor CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+    As mentioned above, this tool is use to check for errors in the css code.
+
++ [JSHint](https://jshint.com/)
+
+    This page is use to check for errors in the JS code.
+
++ [Googlefonts](https://fonts.google.com/)
+
+    The fonts used in this project are taken from Googlefonts.
+
++ [Youtube](https://www.youtube.com/)
+
+    I use this site to get inspiration from other projects and to search informtaion regarding source code. 
+
++ [Bootstrap 4](https://getbootstrap.com/)
+
+    Front-end opensource toolkit that is use for the making of this project, and to customize the site to mobile responsive.
+
++  [Reposinator](https://www.responsinator.com/)
+    
+    Reposinator is use to check how your website look in different devices in responsive mode.
+
++   [Devtool](https://developers.google.com/web/tools/chrome-devtools)
+
+    use to search for error in the making of the webpage.
+
+# Testing
+
+    During my test period i focus on the user stories.
+    The page has been tested in different browser, such as.
+
+    1. Chrome
+    2. Firefox
+    3. Safari
+    4. Microsoft edge
+
+    The responsive part has also been tested in http://www.responsinator.com/ for  
+
+    1. Ipad
+    2. Iphone
+    3. Android
+    4. Laptop
+
+    The language of the page both HTML and CSS were tested for errors and warnings in
+
+    1. W3C Validator HTML.
+    2. W3C validator CSS.
