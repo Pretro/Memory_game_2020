@@ -54,4 +54,4 @@ As a user of this game, i want to
 
 * ## Wireframes ##
 
-    [Wireframe 1](wireframe/Memory_game.png)
+    [Wireframe 1](Wireframes/Memory_game.png)
