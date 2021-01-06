@@ -186,7 +186,7 @@ As a user of this game, i want to
         Android (Pixel 2) landscape · width: 684px
         iPhone 6-8 landscape · width: 667px
         iPad portrait · width: 768px
-    + This is not an reason that made the game cannot be played or make difficultto play.   
+    + This is not a reason that made the game cannot be played or make difficultto play.   
 
 # Deployment #
 
