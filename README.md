@@ -186,6 +186,8 @@ As a user of this game, i want to
         Android (Pixel 2) landscape · width: 684px
         iPhone 6-8 landscape · width: 667px
         iPad portrait · width: 768px
+    + The message when you finished the game do not dissapear.
+    + Delay esperience of the pictures sometimes, but not all the times.
     + This is not an reason that made the game cannot be played or make difficultto play.   
 
 # Deployment #

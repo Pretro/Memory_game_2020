@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let gameBoard=document.getElementById('game_board');
 let gameTime;
 let cards=[];
@@ -17,13 +18,15 @@ function createGame(){
         let randomIndex = Math.floor(Math.random() * availableVariants.length ); 
         let selectedVariant =  availableVariants[randomIndex];
         availableVariants.splice(randomIndex,1);
-        cards.push({index:i,variant:selectedVariant,open:false,found:false})
+        cards.push({index:i,variant:selectedVariant,open:false,found:false});
     }
     gameBoard.innerHTML=cards
         .map(card=>'<div class="col-sm-3 card card_back" id="c'+card.index+'" onclick="play('+card.index+')"></div>')
         .join('');    
+        
 }
 
+   
 function play(cardNumber){
     if (!gameTime){
         return;
@@ -51,7 +54,7 @@ function play(cardNumber){
                 setTimeout( ()=> {
                     flipCardDown(selectedCards[0].index, document.getElementById('c'+ selectedCards[0].index));
                     flipCardDown(selectedCards[1].index, document.getElementById('c'+ selectedCards[1].index));
-                },1000)
+                },1000);
             }
         }
     }
@@ -70,7 +73,6 @@ function play(cardNumber){
         countOpen++;    
     }
 }
-
 function updateScoreBoard(){
     if (!gameTime){
         return;
