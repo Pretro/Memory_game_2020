@@ -188,7 +188,7 @@ As a user of this game, i want to
         iPad portrait · width: 768px
     + The message when you finished the game do not dissapear.
     + Delay esperience of the pictures sometimes, but not all the times.
-    + This is not an reason that made the game cannot be played or make difficultto play.   
+    + This is not an reason that made the game cannot be played or make difficult to play.   
 
 # Deployment #
 
