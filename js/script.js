@@ -78,7 +78,7 @@ function updateScoreBoard(){
         return;
     }
     let elapsedSeconds = (Date.now() - gameTime.getTime())/1000;
-    document.getElementById('game_time').innerHTML = elapsedSeconds;
+    document.getElementById('game_time').innerHTML = 60 - elapsedSeconds;
     document.getElementById('click_counts').innerHTML = countClick;
     document.getElementById('matched_cards').innerHTML = ''+countMatches+'/10';
 
