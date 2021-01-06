@@ -67,7 +67,8 @@ As a user of this game, i want to
     * [CSS3](https://en.wikipedia.org/wiki/CSS)
     * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
-  Frameworks, Libraries & Programs Used ##
+  ## Frameworks, Libraries & Programs Used ## 
+  
   For the making of this project, the following technologies has been used.
 
 + [Gitpod](https://www.gitpod.io/) 
@@ -121,22 +122,135 @@ As a user of this game, i want to
 
 # Testing
 
-    During my test period i focus on the user stories.
-    The page has been tested in different browser, such as.
-
-    1. Chrome
-    2. Firefox
-    3. Safari
-    4. Microsoft edge
-
-    The responsive part has also been tested in http://www.responsinator.com/ for  
-
-    1. Ipad
-    2. Iphone
-    3. Android
-    4. Laptop
-
-    The language of the page both HTML and CSS were tested for errors and warnings in
+    The language of the game such as HTML, CSS and Javascript were tested for errors and warnings in the code.
 
     1. W3C Validator HTML.
+
     2. W3C validator CSS.
+
+    3. JShint
+
+##  Testing User Stories from User Experience (UX) Section 
+
+* As a first time Visitor, i want to be able to easy navegate through the gameboard.
+
+    a. It must be easy for me to understand what the game is about.
+
+    b. Be able to play the game in different browsers and units.
+
+    c. the pictures must be easy to indentify and with good resolution.
+
+* As a returning time visitors 
+
+    a. i expect to see improvments in the game, updates.
+
+    b. and to see what is new.
+
+* As Frequent time visitors
+
+    a. I want to check if there are any newly added challenges in the game.
+
+    b. There must be updates withiin that can enable you to pick different scenarios.
+
+    c. Within a period of time have a hall of fame were i can compete with other players and be shown in a list of who is the best.
+
+## Further Testing
+
+*  During my test period i focus on the user stories.
+    The game has been tested in different browser, such as.
+
+    1. Chrome
+
+    2. Firefox
+
+    3. Safari
+
+    4. Microsoft edge
+
+* The responsive part has also been tested in http://www.responsinator.com/ for  
+
+    1. Ipad
+
+    2. Iphone
+
+    3. Android
+
+    4. Laptop
+
+* Friends and family members played to review the game and to point out any bugs and/or user experience issues.
+
+## Known Bugs ##
+
+    + The gameboard shows at the left side of the screen instead of in the center in this devices
+        iPhone eXpensive landscape · width: 734px.
+        Android (Pixel 2) landscape · width: 684px
+        iPhone 6-8 landscape · width: 667px
+        iPad portrait · width: 768px
+    + This is not an reason that made the game cannot be played or make difficultto play.   
+
+# Deployment #
+
+To deploy this porject, i used the hosting platform of Github
+The step to deploy this project were as follows.
+
+### __GitHub Pages__
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Go to settings
+3. Under "GitHub Pages", use the None drop-down menu and select a publishing source.
+4. Next choose the root.
+5. Click save and you will get the link to your webpage where others can enter and interact. 
+
+### __Forking the GitHub Repository__ ###
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+You should now have a copy of the original repository in your GitHub account.
+
+# Cloning a repository to GitHub Desktop #
+
+1. On GitHub, navigate to the main page of the repository.
+
+2. Above the list of files, click "Code".
+
+3. Mark the HTTPS tag ad press the copy icon at the end of the link.
+
+4. Open Git Bash
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+   Type  "git clone", and then paste the URL you copied.
+
+     $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+6. Press enter and you should see the following code on the screen
+
+    ![example image of git clone](images/git-clone.png)
+
+
+# Credits
+
+__Code__
+
+* [Bootstrap 4](https://getbootstrap.com/) Library used throughout the project in the making of the game and to make it responsive.
+* The code was validated in the following pages for error correction:
+
+    + [W3C Valitor HTML](https://validator.w3.org/)
+    + [JSHint](https://jshint.com/)
+    + [CSS](https://www.w3schools.com/css/default.asp)
+
+__Content__
+
+* All content (this means the coding) was made by the developer
+
+__Media__
+* All Images were taken from the following site:
+    + [Pexels](https://www.pexels.com/sv-se/)
+
+__Acknowledgements__
+
+* My friend Christian Mossberg, for his guidence and support in the making of this project.
+
+* My Mentor for continuous helpful feedback.
+
+* Tutor support at Code Institute for their support.
