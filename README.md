@@ -1,7 +1,7 @@
 # Memory_game_2020
 The project is based on the need of making a memory game for the second part of the milestone project. The game is based on the covid-19 virus. As we all kow, 2020 is a year that will be difficult to forget. 
 The main goal of the game is to have fun, and to give a message reminding everyone who play that not to forget about taking precautions.
-The game is is designed to be responsibe on a range of devices. 
+The game is designed to be responsive on a range of devices. 
 You can test the game on the following link:
 
 + [play the game](https://pretro.github.io/Memory_game_2020/) 
@@ -19,12 +19,12 @@ __The purpose of this game is to :__
 As a user of this game, i want to
 
 1. Be able to easy navegate through the gameboard.
-2. Easy for me to understand what the gameis about.
-3. Be able to play the game must be seen in different browsers.
+2. Easy for me to understand what the game is about.
+3. Be able to play the game in different browsers.
 4. Read and understand the texts.
 5. Have the game responsive in several devices
 6. See the pictures with a good resolution.
-7. See different pictures who are not so similar toeach other
+7. See different pictures who are not so similar to each other
 
 ### Returning time visitors goals
 1. As a Returning Visitor, i want to see improvments in the game.
@@ -40,6 +40,7 @@ As a user of this game, i want to
 * _Color Scheme_
     * The main color of the game is darkorange and antiquewhite for the text.
     * Red and yellow are for the button and card borders
+    * The game board consist on a 5 * 4 board. This might change depending of the device you are playing.
 
 * Typography
     * The **Arial, Helvetica, sans-serif** font is the main font used throughout the game.
@@ -112,11 +113,11 @@ As a user of this game, i want to
 
     Front-end opensource toolkit that is use for the making of this project, and to customize the site to mobile responsive.
 
-+  [Reposinator](https://www.responsinator.com/)
++ [Reposinator](https://www.responsinator.com/)
     
     Reposinator is use to check how your website look in different devices in responsive mode.
 
-+   [Devtool](https://developers.google.com/web/tools/chrome-devtools)
++ [Devtool](https://developers.google.com/web/tools/chrome-devtools)
 
     use to search for error in the making of the webpage.
 
@@ -134,27 +135,25 @@ As a user of this game, i want to
 
 * As a first time Visitor, i want to be able to easy navegate through the gameboard.
 
-    a. It must be easy for me to understand what the game is about.
+    a. Since the game is very simple build it makes it easy for the user to see what it about.
 
-    b. Be able to play the game in different browsers and units.
+    b. The game is build with a button "start game" that makes it easy for user to understand when the game beigins.
 
-    c. the pictures must be easy to indentify and with good resolution.
+    c. Also if the users wants to start a new game while playing just have to push the start button and not necessary wait until the session is over.
 
-* As a returning time visitors 
+* As a returning time visitor, i expect to see improvments in the game, updates.
 
-    a. i expect to see improvments in the game, updates.
+    a. There will be updates in the game like change of color, pictures and layouts.
 
-    b. and to see what is new.
+    b. Also new scenarios and other features like new buttons and options
 
-* As Frequent time visitors
+* As Frequent time visitor. I want to check if there are any newly added challenges in the game.
 
-    a. I want to check if there are any newly added challenges in the game.
+    a. New challanges will appear as the game evolutionates.
 
-    b. There must be updates withiin that can enable you to pick different scenarios.
+    b. The new challenges will consist in different types of gameboard with less time to make it through.
 
-    c. Within a period of time have a hall of fame were i can compete with other players and be shown in a list of who is the best.
-
-## Further Testing
+    c. There are also thoughts of making the game a two player, in which you can compete against an opponents.
 
 *  During my test period i focus on the user stories.
     The game has been tested in different browser, such as.
@@ -181,15 +180,8 @@ As a user of this game, i want to
 
 ## Known Bugs ##
 
-    + The gameboard shows at the left side of the screen instead of in the center in this devices
-        iPhone eXpensive landscape · width: 734px.
-        Android (Pixel 2) landscape · width: 684px
-        iPhone 6-8 landscape · width: 667px
-        iPad portrait · width: 768px
-    + The message when you finished the game do not dissapear.
+    + The gameboard shows at the left side of the screen instead of in the center in iPad portrait · width: 768px
     + Delay esperience of the pictures sometimes, but not all the times.
-    + This is not an reason that made the game cannot be played or make difficult to play.   
-
 # Deployment #
 
 To deploy this porject, i used the hosting platform of Github
@@ -229,6 +221,8 @@ You should now have a copy of the original repository in your GitHub account.
 
     ![example image of git clone](images/git-clone.png)
 
+7. Open the index.html in the folder that you clone the poject.
+
 
 # Credits
 
@@ -253,6 +247,6 @@ __Acknowledgements__
 
 * My friend Christian Mossberg, for his guidence and support in the making of this project.
 
-* My Mentor for continuous helpful feedback.
+* My Mentor Antonio Rodriguez for continuous helpful feedback.
 
-* Tutor support at Code Institute for their support.
+* Tutor support at Code Institute for their support and help.
